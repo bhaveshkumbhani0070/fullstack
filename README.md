@@ -1,4 +1,6 @@
-# Your Frontend App Name
+# Book
+
+## Front end
 
 This is the frontend part of your full-stack application.
 
@@ -26,7 +28,7 @@ The frontend communicates with the backend API. Check the backend README for API
 
 Swagger documentation for the backend API can be accessed at: [http://localhost:3001/api](http://localhost:3001/api)
 
-# Your Backend App Name
+## Backend
 
 This is the backend part of your full-stack application.
 
