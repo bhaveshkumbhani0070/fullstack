@@ -1,0 +1,39 @@
+backend:
+
+1. make the RDB schema
+2. Typescript required
+3. Should follow the folder structure of (controller, service, entity)
+   1. “controller” is for the req, res
+   2. “service” is for the business logic
+   3. “repository” is for only sql or query stuffs (should not have business logic) o
+   4. “entity” is for the database modeling
+4. Need API documentations(anything is ok. swagger, markdown. etc..)
+5. There is no flow about buying books, but please make API of buying book using database transaction.
+
+frontend
+type of book
+title
+description
+Discount rate (between 1 ~ 99)
+cover image
+price (numeric)
+
+use axios with REST API to get data and render a card type list
+card must display Title, Discount rate, Cover image, Price
+apply Infinite scroll
+Next data loading occurs when reaches 80% of the floor
+apply refresh control (on top pull)
+ratio of the image is fixed as on the left image. Make the image fittable with various image size
+Rule
+follow atomic design
+use camel case
+reactjs
+typescript (never use ‘any’ type)
+use eslint (please check link)
+backend(server) must be running in E2C or etc.
+
+Make the UI exactly same as the image on the left
+You have to consider responsiveness (Width between 350-700)
+We will check the responsiveness on the chrome
+Consider all data is fixed with current system
+After created the code, push it to github with your account with public, and share the url to us with your information - name / phone number / cv / github link to suman@hyperhire.in
