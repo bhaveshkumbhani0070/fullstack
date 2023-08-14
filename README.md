@@ -13,12 +13,10 @@ This is the frontend part of your full-stack application.
 ## Project Structure
 
 - `src/` - Source code directory
-- ...
 
 ## Dependencies
 
 - React
-- ...
 
 ## API Endpoints
 
@@ -47,19 +45,15 @@ This is the backend part of your full-stack application.
 ## Project Structure
 
 - `src/` - Source code directory
-- ...
 
 ## Dependencies
 
 - Nest.js
 - TypeORM
-- ...
 
 ## API Endpoints
 
-- Endpoint 1: Description
-- Endpoint 2: Description
-- ...
+- /books/1/buy
 
 ## Swagger Documentation
 
